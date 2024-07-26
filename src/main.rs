@@ -24,6 +24,17 @@ async fn dump_prof(id: usize) -> anyhow::Result<()> {
         .map_err(|e| anyhow::anyhow!("write .prof file failed: {}", e))
 }
 
+fn get_tag_positions(src: &str) -> Vec<(usize, usize)> {
+    REG
+        .clone()
+        .captures_iter(src)
+        .map(|caps| {
+            let m = caps.get(0).unwrap();
+            (m.start(), m.end())
+        })
+        .collect::<Vec<_>>()
+}
+
 async fn memory_leak_demo() -> Vec<u8> {
     let text = reqwest::get("https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.34/vue.cjs.js")
         .await
@@ -32,12 +43,12 @@ async fn memory_leak_demo() -> Vec<u8> {
         .await
         .unwrap();
     let mut buf = Vec::from(text.as_bytes());
-    for (i, caps) in REG.captures_iter(&text).enumerate() {
+    for (i, (start, end)) in get_tag_positions(&text).into_iter().enumerate() {
         println!("process text: {}", i + 1);
         tokio::time::sleep(Duration::from_millis(50)).await;
-        let m = caps.get(0).unwrap();
-        let start = m.start();
-        let end = m.end();
+        // let m = caps.get(0).unwrap();
+        // let start = m.start();
+        // let end = m.end();
         let text = &text[start..end];
         buf.extend(text.as_bytes());
     }
