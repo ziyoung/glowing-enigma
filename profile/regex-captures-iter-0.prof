@@ -2,108 +2,108 @@ heap_v2/524288
   t*: 1: 64 [0: 0]
   t0: 1: 64 [0: 0]
   t1: 0: 0 [0: 0]
-@ 0x55b4d5ff38dd 0x55b4d5ff39bc 0x55b4d5f8f23f 0x55b4d5d95849 0x55b4d5dc83a0 0x55b4d5969639 0x55b4d5980272 0x55b4d63416a7 0x55b4d6340f06 0x55b4d596e7ba 0x55b4d598051e 0x7f27d573824a 0x7f27d5738305 0x55b4d5957a31
+@ 0x562a4bdf9c9d 0x562a4bdf9d7c 0x562a4bd955ff 0x562a4bb9bc09 0x562a4bbce760 0x562a4b76e969 0x562a4b786482 0x562a4c147dc7 0x562a4c147626 0x562a4b773afa 0x562a4b78672e 0x7f3eaea6b24a 0x7f3eaea6b305 0x562a4b75ca31
   t*: 1: 64 [0: 0]
   t0: 1: 64 [0: 0]
 
 MAPPED_LIBRARIES:
-55b4d5881000-55b4d5954000 r--p 00000000 00:20 97623                      /van/target/debug/memory-leak-example
-55b4d5954000-55b4d6373000 r-xp 000d3000 00:20 97623                      /van/target/debug/memory-leak-example
-55b4d6373000-55b4d65cd000 r--p 00af2000 00:20 97623                      /van/target/debug/memory-leak-example
-55b4d65cd000-55b4d6652000 r--p 00d4b000 00:20 97623                      /van/target/debug/memory-leak-example
-55b4d6652000-55b4d6655000 rw-p 00dd0000 00:20 97623                      /van/target/debug/memory-leak-example
-55b4d6655000-55b4d6874000 rw-p 00000000 00:00 0 
-55b4d809a000-55b4d80bb000 rw-p 00000000 00:00 0                          [heap]
-7f27a4000000-7f27a4021000 rw-p 00000000 00:00 0 
-7f27a4021000-7f27a8000000 ---p 00000000 00:00 0 
-7f27a8000000-7f27a8021000 rw-p 00000000 00:00 0 
-7f27a8021000-7f27ac000000 ---p 00000000 00:00 0 
-7f27b0000000-7f27b0021000 rw-p 00000000 00:00 0 
-7f27b0021000-7f27b4000000 ---p 00000000 00:00 0 
-7f27b4000000-7f27b4021000 rw-p 00000000 00:00 0 
-7f27b4021000-7f27b8000000 ---p 00000000 00:00 0 
-7f27bc000000-7f27bc021000 rw-p 00000000 00:00 0 
-7f27bc021000-7f27c0000000 ---p 00000000 00:00 0 
-7f27c0000000-7f27c0021000 rw-p 00000000 00:00 0 
-7f27c0021000-7f27c4000000 ---p 00000000 00:00 0 
-7f27c8000000-7f27c8021000 rw-p 00000000 00:00 0 
-7f27c8021000-7f27cc000000 ---p 00000000 00:00 0 
-7f27ce000000-7f27ce400000 rw-p 00000000 00:00 0 
-7f27ce400000-7f27ce401000 ---p 00000000 00:00 0 
-7f27ce401000-7f27ce601000 rw-p 00000000 00:00 0 
-7f27ce800000-7f27ce801000 ---p 00000000 00:00 0 
-7f27ce801000-7f27cea01000 rw-p 00000000 00:00 0 
-7f27cec00000-7f27cee00000 rw-p 00000000 00:00 0 
-7f27cee00000-7f27cee01000 ---p 00000000 00:00 0 
-7f27cee01000-7f27cf001000 rw-p 00000000 00:00 0 
-7f27cf200000-7f27cf400000 rw-p 00000000 00:00 0 
-7f27cf400000-7f27cf401000 ---p 00000000 00:00 0 
-7f27cf401000-7f27cf601000 rw-p 00000000 00:00 0 
-7f27cf800000-7f27cf801000 ---p 00000000 00:00 0 
-7f27cf801000-7f27cfa01000 rw-p 00000000 00:00 0 
-7f27cfc00000-7f27cfc01000 ---p 00000000 00:00 0 
-7f27cfc01000-7f27cfe01000 rw-p 00000000 00:00 0 
-7f27d0000000-7f27d0021000 rw-p 00000000 00:00 0 
-7f27d0021000-7f27d4000000 ---p 00000000 00:00 0 
-7f27d4200000-7f27d4600000 rw-p 00000000 00:00 0 
-7f27d4600000-7f27d4601000 ---p 00000000 00:00 0 
-7f27d4601000-7f27d4801000 rw-p 00000000 00:00 0 
-7f27d4a00000-7f27d4a01000 ---p 00000000 00:00 0 
-7f27d4a01000-7f27d4c01000 rw-p 00000000 00:00 0 
-7f27d4e00000-7f27d5600000 rw-p 00000000 00:00 0 
-7f27d56f9000-7f27d56fa000 ---p 00000000 00:00 0 
-7f27d56fa000-7f27d56fc000 rw-p 00000000 00:00 0 
-7f27d56fc000-7f27d56fd000 ---p 00000000 00:00 0 
-7f27d56fd000-7f27d56ff000 rw-p 00000000 00:00 0 
-7f27d56ff000-7f27d5700000 ---p 00000000 00:00 0 
-7f27d5700000-7f27d5702000 rw-p 00000000 00:00 0 
-7f27d5702000-7f27d5703000 ---p 00000000 00:00 0 
-7f27d5703000-7f27d5705000 rw-p 00000000 00:00 0 
-7f27d5705000-7f27d5706000 ---p 00000000 00:00 0 
-7f27d5706000-7f27d5708000 rw-p 00000000 00:00 0 
-7f27d5708000-7f27d5709000 ---p 00000000 00:00 0 
-7f27d5709000-7f27d570b000 rw-p 00000000 00:00 0 
-7f27d570b000-7f27d570c000 ---p 00000000 00:00 0 
-7f27d570c000-7f27d570e000 rw-p 00000000 00:00 0 
-7f27d570e000-7f27d5711000 rw-p 00000000 00:00 0 
-7f27d5711000-7f27d5737000 r--p 00000000 00:21 891344                     /usr/lib/x86_64-linux-gnu/libc.so.6
-7f27d5737000-7f27d588c000 r-xp 00026000 00:21 891344                     /usr/lib/x86_64-linux-gnu/libc.so.6
-7f27d588c000-7f27d58df000 r--p 0017b000 00:21 891344                     /usr/lib/x86_64-linux-gnu/libc.so.6
-7f27d58df000-7f27d58e3000 r--p 001ce000 00:21 891344                     /usr/lib/x86_64-linux-gnu/libc.so.6
-7f27d58e3000-7f27d58e5000 rw-p 001d2000 00:21 891344                     /usr/lib/x86_64-linux-gnu/libc.so.6
-7f27d58e5000-7f27d58f4000 rw-p 00000000 00:00 0 
-7f27d58f4000-7f27d5904000 r--p 00000000 00:21 891383                     /usr/lib/x86_64-linux-gnu/libm.so.6
-7f27d5904000-7f27d5977000 r-xp 00010000 00:21 891383                     /usr/lib/x86_64-linux-gnu/libm.so.6
-7f27d5977000-7f27d59d1000 r--p 00083000 00:21 891383                     /usr/lib/x86_64-linux-gnu/libm.so.6
-7f27d59d1000-7f27d59d2000 r--p 000dc000 00:21 891383                     /usr/lib/x86_64-linux-gnu/libm.so.6
-7f27d59d2000-7f27d59d3000 rw-p 000dd000 00:21 891383                     /usr/lib/x86_64-linux-gnu/libm.so.6
-7f27d59d3000-7f27d59d6000 r--p 00000000 00:21 891366                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-7f27d59d6000-7f27d59ed000 r-xp 00003000 00:21 891366                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-7f27d59ed000-7f27d59f1000 r--p 0001a000 00:21 891366                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-7f27d59f1000-7f27d59f2000 r--p 0001d000 00:21 891366                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-7f27d59f2000-7f27d59f3000 rw-p 0001e000 00:21 891366                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
-7f27d59f3000-7f27d5ab8000 r--p 00000000 00:21 897508                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
-7f27d5ab8000-7f27d5d32000 r-xp 000c5000 00:21 897508                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
-7f27d5d32000-7f27d5e0f000 r--p 0033f000 00:21 897508                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
-7f27d5e0f000-7f27d5e70000 r--p 0041c000 00:21 897508                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
-7f27d5e70000-7f27d5e73000 rw-p 0047d000 00:21 897508                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
-7f27d5e73000-7f27d5e76000 rw-p 00000000 00:00 0 
-7f27d5e76000-7f27d5e95000 r--p 00000000 00:21 897552                     /usr/lib/x86_64-linux-gnu/libssl.so.3
-7f27d5e95000-7f27d5ef2000 r-xp 0001f000 00:21 897552                     /usr/lib/x86_64-linux-gnu/libssl.so.3
-7f27d5ef2000-7f27d5f11000 r--p 0007c000 00:21 897552                     /usr/lib/x86_64-linux-gnu/libssl.so.3
-7f27d5f11000-7f27d5f1b000 r--p 0009a000 00:21 897552                     /usr/lib/x86_64-linux-gnu/libssl.so.3
-7f27d5f1b000-7f27d5f1f000 rw-p 000a4000 00:21 897552                     /usr/lib/x86_64-linux-gnu/libssl.so.3
-7f27d5f21000-7f27d5f22000 ---p 00000000 00:00 0 
-7f27d5f22000-7f27d5f24000 rw-p 00000000 00:00 0 
-7f27d5f24000-7f27d5f25000 ---p 00000000 00:00 0 
-7f27d5f25000-7f27d5f27000 rw-p 00000000 00:00 0 
-7f27d5f27000-7f27d5f29000 rw-p 00000000 00:00 0 
-7f27d5f29000-7f27d5f2a000 r--p 00000000 00:21 891326                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
-7f27d5f2a000-7f27d5f4f000 r-xp 00001000 00:21 891326                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
-7f27d5f4f000-7f27d5f59000 r--p 00026000 00:21 891326                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
-7f27d5f59000-7f27d5f5b000 r--p 00030000 00:21 891326                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
-7f27d5f5b000-7f27d5f5d000 rw-p 00032000 00:21 891326                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
-7ffd151cb000-7ffd151ec000 rw-p 00000000 00:00 0                          [stack]
-7ffd151f0000-7ffd151f4000 r--p 00000000 00:00 0                          [vvar]
-7ffd151f4000-7ffd151f6000 r-xp 00000000 00:00 0                          [vdso]
+562a4b686000-562a4b759000 r--p 00000000 00:20 97938                      /van/target/debug/memory-leak-example
+562a4b759000-562a4c17a000 r-xp 000d3000 00:20 97938                      /van/target/debug/memory-leak-example
+562a4c17a000-562a4c3d5000 r--p 00af4000 00:20 97938                      /van/target/debug/memory-leak-example
+562a4c3d5000-562a4c45a000 r--p 00d4e000 00:20 97938                      /van/target/debug/memory-leak-example
+562a4c45a000-562a4c45d000 rw-p 00dd3000 00:20 97938                      /van/target/debug/memory-leak-example
+562a4c45d000-562a4c67c000 rw-p 00000000 00:00 0 
+562a4c747000-562a4c768000 rw-p 00000000 00:00 0                          [heap]
+7f3e7c000000-7f3e7c021000 rw-p 00000000 00:00 0 
+7f3e7c021000-7f3e80000000 ---p 00000000 00:00 0 
+7f3e80000000-7f3e80021000 rw-p 00000000 00:00 0 
+7f3e80021000-7f3e84000000 ---p 00000000 00:00 0 
+7f3e88000000-7f3e88021000 rw-p 00000000 00:00 0 
+7f3e88021000-7f3e8c000000 ---p 00000000 00:00 0 
+7f3e8c000000-7f3e8c021000 rw-p 00000000 00:00 0 
+7f3e8c021000-7f3e90000000 ---p 00000000 00:00 0 
+7f3e94000000-7f3e94021000 rw-p 00000000 00:00 0 
+7f3e94021000-7f3e98000000 ---p 00000000 00:00 0 
+7f3e98000000-7f3e98021000 rw-p 00000000 00:00 0 
+7f3e98021000-7f3e9c000000 ---p 00000000 00:00 0 
+7f3ea0000000-7f3ea0021000 rw-p 00000000 00:00 0 
+7f3ea0021000-7f3ea4000000 ---p 00000000 00:00 0 
+7f3ea5a00000-7f3ea5a01000 ---p 00000000 00:00 0 
+7f3ea5a01000-7f3ea5c01000 rw-p 00000000 00:00 0 
+7f3ea7000000-7f3ea7400000 rw-p 00000000 00:00 0 
+7f3ea7400000-7f3ea7401000 ---p 00000000 00:00 0 
+7f3ea7401000-7f3ea7601000 rw-p 00000000 00:00 0 
+7f3ea7800000-7f3ea7801000 ---p 00000000 00:00 0 
+7f3ea7801000-7f3ea7a01000 rw-p 00000000 00:00 0 
+7f3ea7c00000-7f3ea8021000 rw-p 00000000 00:00 0 
+7f3ea8021000-7f3eac000000 ---p 00000000 00:00 0 
+7f3eac200000-7f3eac201000 ---p 00000000 00:00 0 
+7f3eac201000-7f3eac401000 rw-p 00000000 00:00 0 
+7f3eac600000-7f3eac800000 rw-p 00000000 00:00 0 
+7f3eac800000-7f3eac801000 ---p 00000000 00:00 0 
+7f3eac801000-7f3eaca01000 rw-p 00000000 00:00 0 
+7f3eacc00000-7f3eace00000 rw-p 00000000 00:00 0 
+7f3eace00000-7f3eace01000 ---p 00000000 00:00 0 
+7f3eace01000-7f3ead001000 rw-p 00000000 00:00 0 
+7f3ead200000-7f3eada00000 rw-p 00000000 00:00 0 
+7f3eada00000-7f3eada01000 ---p 00000000 00:00 0 
+7f3eada01000-7f3eadc01000 rw-p 00000000 00:00 0 
+7f3eade00000-7f3eade01000 ---p 00000000 00:00 0 
+7f3eade01000-7f3eae001000 rw-p 00000000 00:00 0 
+7f3eae200000-7f3eaea00000 rw-p 00000000 00:00 0 
+7f3eaea2c000-7f3eaea2d000 ---p 00000000 00:00 0 
+7f3eaea2d000-7f3eaea2f000 rw-p 00000000 00:00 0 
+7f3eaea2f000-7f3eaea30000 ---p 00000000 00:00 0 
+7f3eaea30000-7f3eaea32000 rw-p 00000000 00:00 0 
+7f3eaea32000-7f3eaea33000 ---p 00000000 00:00 0 
+7f3eaea33000-7f3eaea35000 rw-p 00000000 00:00 0 
+7f3eaea35000-7f3eaea36000 ---p 00000000 00:00 0 
+7f3eaea36000-7f3eaea38000 rw-p 00000000 00:00 0 
+7f3eaea38000-7f3eaea39000 ---p 00000000 00:00 0 
+7f3eaea39000-7f3eaea3b000 rw-p 00000000 00:00 0 
+7f3eaea3b000-7f3eaea3c000 ---p 00000000 00:00 0 
+7f3eaea3c000-7f3eaea3e000 rw-p 00000000 00:00 0 
+7f3eaea3e000-7f3eaea3f000 ---p 00000000 00:00 0 
+7f3eaea3f000-7f3eaea41000 rw-p 00000000 00:00 0 
+7f3eaea41000-7f3eaea44000 rw-p 00000000 00:00 0 
+7f3eaea44000-7f3eaea6a000 r--p 00000000 00:21 891344                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f3eaea6a000-7f3eaebbf000 r-xp 00026000 00:21 891344                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f3eaebbf000-7f3eaec12000 r--p 0017b000 00:21 891344                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f3eaec12000-7f3eaec16000 r--p 001ce000 00:21 891344                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f3eaec16000-7f3eaec18000 rw-p 001d2000 00:21 891344                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f3eaec18000-7f3eaec27000 rw-p 00000000 00:00 0 
+7f3eaec27000-7f3eaec37000 r--p 00000000 00:21 891383                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f3eaec37000-7f3eaecaa000 r-xp 00010000 00:21 891383                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f3eaecaa000-7f3eaed04000 r--p 00083000 00:21 891383                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f3eaed04000-7f3eaed05000 r--p 000dc000 00:21 891383                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f3eaed05000-7f3eaed06000 rw-p 000dd000 00:21 891383                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f3eaed06000-7f3eaed09000 r--p 00000000 00:21 891366                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f3eaed09000-7f3eaed20000 r-xp 00003000 00:21 891366                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f3eaed20000-7f3eaed24000 r--p 0001a000 00:21 891366                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f3eaed24000-7f3eaed25000 r--p 0001d000 00:21 891366                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f3eaed25000-7f3eaed26000 rw-p 0001e000 00:21 891366                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f3eaed26000-7f3eaedeb000 r--p 00000000 00:21 897508                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7f3eaedeb000-7f3eaf065000 r-xp 000c5000 00:21 897508                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7f3eaf065000-7f3eaf142000 r--p 0033f000 00:21 897508                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7f3eaf142000-7f3eaf1a3000 r--p 0041c000 00:21 897508                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7f3eaf1a3000-7f3eaf1a6000 rw-p 0047d000 00:21 897508                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7f3eaf1a6000-7f3eaf1a9000 rw-p 00000000 00:00 0 
+7f3eaf1a9000-7f3eaf1c8000 r--p 00000000 00:21 897552                     /usr/lib/x86_64-linux-gnu/libssl.so.3
+7f3eaf1c8000-7f3eaf225000 r-xp 0001f000 00:21 897552                     /usr/lib/x86_64-linux-gnu/libssl.so.3
+7f3eaf225000-7f3eaf244000 r--p 0007c000 00:21 897552                     /usr/lib/x86_64-linux-gnu/libssl.so.3
+7f3eaf244000-7f3eaf24e000 r--p 0009a000 00:21 897552                     /usr/lib/x86_64-linux-gnu/libssl.so.3
+7f3eaf24e000-7f3eaf252000 rw-p 000a4000 00:21 897552                     /usr/lib/x86_64-linux-gnu/libssl.so.3
+7f3eaf254000-7f3eaf255000 ---p 00000000 00:00 0 
+7f3eaf255000-7f3eaf257000 rw-p 00000000 00:00 0 
+7f3eaf257000-7f3eaf258000 ---p 00000000 00:00 0 
+7f3eaf258000-7f3eaf25a000 rw-p 00000000 00:00 0 
+7f3eaf25a000-7f3eaf25c000 rw-p 00000000 00:00 0 
+7f3eaf25c000-7f3eaf25d000 r--p 00000000 00:21 891326                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f3eaf25d000-7f3eaf282000 r-xp 00001000 00:21 891326                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f3eaf282000-7f3eaf28c000 r--p 00026000 00:21 891326                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f3eaf28c000-7f3eaf28e000 r--p 00030000 00:21 891326                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f3eaf28e000-7f3eaf290000 rw-p 00032000 00:21 891326                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fffadffd000-7fffae01e000 rw-p 00000000 00:00 0                          [stack]
+7fffae1bf000-7fffae1c3000 r--p 00000000 00:00 0                          [vvar]
+7fffae1c3000-7fffae1c5000 r-xp 00000000 00:00 0                          [vdso]
 ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
