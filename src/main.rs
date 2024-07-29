@@ -32,7 +32,7 @@ async fn memory_leak_demo() -> Vec<u8> {
         .await
         .unwrap();
     let mut buf = Vec::from(text.as_bytes());
-    for (i, caps) in REG.captures_iter(&text).enumerate() {
+    for (i, caps) in REG.clone().captures_iter(&text).enumerate() {
         println!("process text: {}", i + 1);
         tokio::time::sleep(Duration::from_millis(50)).await;
         let m = caps.get(0).unwrap();
