@@ -20,6 +20,7 @@ async fn memory_leak_demo() -> Vec<u8> {
             })
             .collect::<Vec<_>>();
         for (start, end) in positions {
+            tokio::time::sleep(Duration::from_millis(5)).await;
             buf.extend(text[start..end].as_bytes());
         }
     } else {
